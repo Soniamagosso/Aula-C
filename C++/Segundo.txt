@@ -1,0 +1,14 @@
+#include <iostrem>
+
+using namespace std;
+
+void inscrever(){
+    cout << "Inscreva-se no canal do\n Prof Douglas Maiol\ni";
+}
+
+int main(){
+
+    inscrever();
+
+    return 0;
+}

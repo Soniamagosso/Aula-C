@@ -1,0 +1,10 @@
+void Hash::retrieveItem(Aluno& aluno, bool& found) {
+    int location = getHash(aluno);
+    aluno aux = structure[location];
+    if(aluno.getRa() != aux.getRa()) {
+        found = false;
+    } else {
+        found = true;
+        aluno = aux;
+    }
+}
